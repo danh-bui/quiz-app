@@ -1,10 +1,13 @@
 :root {
   /* COLORS */
-  --primary-color: #6DA909;
+  --primary-color: hsl(83, 90%, 35%);
   --font-color: #23231A;
   --checked-choice-border-color: #3E5622;
   /* --button-background: #2E294E; */
   --button-background: var(--primary-color);
+  /* --button-background: #3E363F;
+  --button-background: hsl(83, 50%, 13%); */
+  --button-background-hovered: hsl(83, 90%, 33%);
   --button-border-color: hsl(248, 31%, 13%);
 }
 
@@ -126,8 +129,11 @@ body {
 }
 .quiz__choices .quiz__input:checked + .quiz__label {
   border: 1px solid var(--checked-choice-border-color);
+  background: hsla(83, 90%, 45%, 0.2);
   font-weight: 700;
   color: var(--primary-color);
+  color: hsl(83, 90%, 25%);
+  /* color: #550527; */
 }
 
 /* ========================================================================== */
@@ -154,7 +160,7 @@ body {
   flex-grow: 1;
 }
 .btn:hover {
-  background: hsl(83, 90%, 32%);
+  background: var(--button-background-hovered);
 }
 .btn:active {
   background: hsl(83, 90%, 25%);
