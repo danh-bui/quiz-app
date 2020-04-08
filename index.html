@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Quiz App</title>
+</head>
+<body>
+  <div class="app">
+    <div class="welcome-page">
+      <h1 class="welcome-title">Welcome To The Quiz!</h1>
+      <button class="btn welcome-btn">Let's get started!</button>
+    </div>
+    <div class="container">
+      <div class="quiz">
+        <div class="quiz__question-area">
+          <p class="quiz__question"></p>
+          <p class="quiz__tracker">1 of 7</p>
+          <div class="progress">
+            <div class="progress__inner"></div>
+          </div>
+          <div class="quiz__tagline">Pick an option below 🙃</div>
+        </div>
+        <div class="quiz__choices-area">
+          <ul class="quiz__choices">
+            <!-- <li class="quiz__choice">
+              <input type="radio" class="quiz__input" id="choice0" name="choice">
+              <label class="quiz__label" for="choice0">
+                <i></i>
+                
+              </label>
+            </li>
+            <li class="quiz__choice">
+              <input type="radio" class="quiz__input" id="choice1" name="choice">
+              <label class="quiz__label" for="choice1">
+                <i></i>
+                
+              </label>
+            </li>
+            <li class="quiz__choice">
+              <input type="radio" class="quiz__input" id="choice2" name="choice">
+              <label class="quiz__label" for="choice2">
+                <i></i>
+                
+              </label>
+            </li>
+            <li class="quiz__choice">
+              <input type="radio" class="quiz__input" id="choice3" name="choice">
+              <label class="quiz__label" for="choice3">
+                <i></i>
+                
+              </label>
+            </li> -->
+          </ul>
+        </div>
+        <div class="quiz__footer">
+          <button class="btn function-btn btn--bordered previous">
+            <img src="img/left-chevron.png" alt="Previous">
+          </button>
+          <button class="btn function-btn btn--bordered restart">
+            <img src="img/restart.png" alt="Restart">
+          </button>
+          <button class="btn function-btn btn--bordered next">
+            <img src="img/right-chevron.png" alt="Next">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>
