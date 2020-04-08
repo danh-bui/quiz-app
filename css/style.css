@@ -191,9 +191,6 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
   }
-  .quiz__label {
-    padding: 1rem;
-  }
   .quiz__footer {
     position: fixed;
     left: 0;
