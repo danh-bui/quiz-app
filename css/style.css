@@ -19,6 +19,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 100%;
+}
+
 body {
   font-family: "Lato", sans-serif;
   background: #FFFCE8;
@@ -172,14 +176,27 @@ body {
 /* ========================================================================== */
 /*                                MEDIA QUERIES                               */
 /* ========================================================================== */
-@media (max-width: 414px) {
+@media (max-width: 600px) {
+  html {
+    font-size: 62.5%;
+  }
+  .container {
+    /* height: 100vh; */
+  }
+  .quiz__question {
+    font-size: ;
+  }
   .quiz__choices {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .quiz__label {
+    padding: 1rem;
   }
   .quiz__footer {
-    float: left;
-    width: 100vw;
+    position: fixed;
+    left: 0;
   }
 
 }
