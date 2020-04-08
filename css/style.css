@@ -178,13 +178,16 @@ body {
 /* ========================================================================== */
 @media (max-width: 600px) {
   html {
-    font-size: 80%;
+    /* font-size: 80%; */
   }
   .container {
     /* height: 100vh; */
   }
   .quiz__question {
     font-size: ;
+  }
+  .quiz__label {
+    margin: .5rem auto;
   }
   .quiz__choices {
     display: grid;
