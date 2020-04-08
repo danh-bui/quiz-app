@@ -195,8 +195,8 @@ body {
     gap: .5rem;
   }
   .quiz__footer {
-    position: fixed;
-    left: 0;
+    /* position: fixed;
+    left: 0; */
   }
 
 }
