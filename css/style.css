@@ -205,7 +205,8 @@ body {
     gap: .5rem; */
     display: flex;
     flex-direction: column;
-    flex-grow: 0;
+
+    flex-grow: 1;
     overflow: scroll;
   }
   .quiz__label {
