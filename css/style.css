@@ -195,7 +195,7 @@ body {
     font-size: 90%;
   }
   .container {
-    /* height: 100vh; */
+    width: 80%;
   }
   .quiz {
     margin-bottom: 5rem;
