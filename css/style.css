@@ -202,8 +202,15 @@ body {
   /* .quiz {
     margin-bottom: 5rem;
   } */
+  .quiz__question-area {
+    margin-bottom: 2rem;
+  }
   .quiz__question {
     font-size: 2rem;
+  }
+  .quiz__progress,
+  .quiz__tagline {
+    display: none;
   }
   .quiz__choices-area {
     width: 100%;
