@@ -208,7 +208,7 @@ body {
   .quiz__question {
     font-size: 2rem;
   }
-  .quiz__progress,
+  .progress,
   .quiz__tagline {
     display: none;
   }
