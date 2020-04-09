@@ -3,10 +3,7 @@
   --primary-color: hsl(83, 90%, 35%);
   --font-color: #23231A;
   --checked-choice-border-color: #3E5622;
-  /* --button-background: #2E294E; */
   --button-background: var(--primary-color);
-  /* --button-background: #3E363F;
-  --button-background: hsl(83, 50%, 13%); */
   --button-background-hovered: hsl(83, 90%, 33%);
   --button-border-color: hsl(248, 31%, 13%);
 }
@@ -228,7 +225,8 @@ body {
     width: 100%;
     margin: 0;
 
-    position: fixed;
+    /* position: -webkit-sticky; */
+    position: sticky;
     bottom: 0;
     left: 0;
   }
