@@ -196,6 +196,8 @@ body {
   }
   .container {
     width: 80%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
   .quiz {
     margin-bottom: 5rem;
