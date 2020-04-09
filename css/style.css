@@ -207,7 +207,7 @@ body {
     font-size: 2rem;
   }
   .quiz__choices-area {
-    width: 80%;
+    width: 100%;
     flex-grow: 1;
     overflow: auto;
   }
