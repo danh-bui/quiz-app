@@ -193,6 +193,9 @@ body {
   .container {
     /* height: 100vh; */
   }
+  .quiz {
+    margin-bottom: 4.5rem;
+  }
   .quiz__question {
     font-size: 2rem;
   }
