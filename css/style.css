@@ -197,11 +197,11 @@ body {
   .container {
     width: 80%;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 5rem;
   }
-  .quiz {
+  /* .quiz {
     margin-bottom: 5rem;
-  }
+  } */
   .quiz__question {
     font-size: 2rem;
   }
