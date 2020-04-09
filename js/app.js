@@ -39,7 +39,7 @@ const App = (() => {
     "What would I do if I was going to die tomorrow?",
     [
       "Call my family and tell them whatever I was thinking 👨‍👩‍👧‍👦",
-      "Convince Trump to stop wars on earth, make the world a better place 🌏",
+      "Convince China to stop making biological weapons 🌏",
       "Panic, panic and only panic 🤯",
       "Go donate my organs 🤘",
     ],
@@ -57,10 +57,14 @@ const App = (() => {
       welcomePageEl.classList.toggle("welcome-page__shift");
     })
     previousBtnEl.addEventListener("click", function() {
-      const previouslySelectedRadioEl = document.querySelector('input[name="choice"]:checked');
-      if (previouslySelectedRadioEl) {
-        
-      }
+      // const previouslySelectedRadioEl = document.querySelector('input[name="choice"]:checked');
+      // console.log(previouslySelectedRadioEl);
+      // const previouslySelectedRadioEl = document.querySelector('input[name="choice"]:checked');
+      console.log(quiz.getPreviousQuestion().choices);
+      quiz.previousIndex();
+
+      // renderAll();
+
     })
     restartBtnEl.addEventListener("click", function() {
       // 1. Reset the quiz
@@ -89,7 +93,7 @@ const App = (() => {
     elem.innerHTML = value;
   }
 
-  const renderQuestion = function() {
+  const renderQuestion = _ => {
     const question = quiz.getCurrentQuestion().question;
     setValue(quizQuestionEl, question);
   };

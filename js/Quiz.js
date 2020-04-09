@@ -9,6 +9,13 @@ Quiz.prototype.nextIndex = function() { this.currentIndex++; }
 Quiz.prototype.previousIndex = function() { this.currentIndex--; }
 Quiz.prototype.getPreviousQuestion = function() { return this.questions[this.currentIndex - 1]; }
 Quiz.prototype.hasEnded = function() { return this.currentIndex === this.questions.length; };
+Quiz.prototype.previousGuess = function(userGuess) {
+  const previousQuestion = this.questions[this.currentIndex - 1];
+  if (previousQuestion.isCorrect(userGuess)) {
+    this.score--;
+  }
+  this.previousIndex();
+}
 Quiz.prototype.guess = function(userGuess) {
   const currentQuestion = this.questions[this.currentIndex];
   if (currentQuestion.isCorrect(userGuess)) {
