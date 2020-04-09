@@ -208,8 +208,8 @@ body {
   }
   .quiz__choices-area {
     width: 100%;
-    flex-grow: 1;
-    overflow: auto;
+    /* flex-grow: 1;
+    overflow: auto; */
   }
   .quiz__choices {
     /* grid-template-columns: 1fr;
