@@ -17,7 +17,7 @@ const App = (() => {
 
   const q1 = new Question(
     "What is my name at home?",
-    ["Bi", "Bom", "Bo", "Barack Obama"],
+    ["Bi", "Bom", "Bo", "Barack Obama 🤥"],
     1,
   );
   const q2 = new Question(
