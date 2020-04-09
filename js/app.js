@@ -112,11 +112,11 @@ const App = (() => {
 
   const renderTracker = _ => {
     const index = quiz.currentIndex;
-    setValue(trackerEl, `${index + 1} of ${quiz.questions.length} questions`)
+    setValue(trackerEl, `🙃 ${index + 1} of ${quiz.questions.length} 🙃`)
   }
 
   const renderTagline = _ => {
-    setValue(tagLineEl, `Pick an option below 🙃`);
+    setValue(tagLineEl, `Pick an option below`);
   }
 
   const getPercentage = (num1, num2) => {
